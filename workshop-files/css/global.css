@@ -1,0 +1,48 @@
+body {color: #333; font-family: "open sans", helvetica, arial, sans-serif;
+    padding-top: 70px;}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fafafa;
+    border-bottom: 2px solid #ccc;
+    height: 70px;
+    width: 100%;
+}
+nav ul {
+	float: right;
+}
+nav li {
+    float: left;
+    width: auto;
+}
+nav li a {
+    padding: 25px 10px;
+    display: block;
+}
+#brand {
+	text-indent: -9000px;
+    background: blue;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 5px;
+} 
+
+.container {width: 1024px; margin: 0 auto;}
+
+#hero {
+	background: url(../images/flatirons.png) no-repeat top left;
+	text-align: center;
+	color: #fafafa;
+	background-size: cover;
+	height: 350px;
+	padding: 25px 0;
+}
+
+#hero img {
+	width: 150px; 
+	border-radius: 50%;
+
+}
